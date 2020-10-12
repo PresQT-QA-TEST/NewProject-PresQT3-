@@ -1,0 +1,93 @@
+{
+    "allKeywords": [],
+    "actions": [
+        {
+            "id": "92e22747-4ad8-4090-9651-7c2d536a2d36",
+            "details": "PresQT Transfer from OSF to GitHub",
+            "actionDateTime": "2020-10-12 15:12:56.998460+00:00",
+            "actionType": "resource_transfer_in",
+            "sourceTargetName": "osf",
+            "sourceUsername": "PresQT QA",
+            "destinationTargetName": "github",
+            "destinationUsername": "PresQT-QA-TEST",
+            "keywords": {
+                "sourceKeywordsAdded": [],
+                "sourceKeywordsEnhanced": [],
+                "ontologies": [],
+                "enhancer": "scigraph"
+            },
+            "files": {
+                "created": [
+                    {
+                        "destinationPath": "/NewProject-PresQT3-/osfstorage/funnyfunnyimages/Screen_Shot_2019-07-15_at_3.26.49_PM.png",
+                        "destinationHashes": {},
+                        "failedFixityInfo": [
+                            {
+                                "NewGeneratedHash": "3505a89c3cbb82873a107ae41f3997c3",
+                                "algorithmUsed": "md5",
+                                "reasonFixityFailed": "Either the destination did not provide a hash or fixity failed during upload."
+                            }
+                        ],
+                        "title": "Screen Shot 2019-07-15 at 3.26.49 PM.png",
+                        "sourceHashes": {
+                            "md5": "3505a89c3cbb82873a107ae41f3997c3",
+                            "sha256": "6d33275234b28d77348e4e1049f58b95a485a7a441684a9eb9175d01c7f141ea"
+                        },
+                        "sourcePath": "/NewProject/osfstorage/funnyfunnyimages/Screen Shot 2019-07-15 at 3.26.49 PM.png",
+                        "extra": {
+                            "id": "5f81d5ca1f65a50275ed4125",
+                            "parent_project_id": "fhcn8",
+                            "endpoint": "https://api.osf.io/v2/files/5f81d5ca1f65a50275ed4125/",
+                            "download_url": "https://files.osf.io/v1/resources/fhcn8/providers/osfstorage/5f81d5ca1f65a50275ed4125",
+                            "upload_url": "https://files.osf.io/v1/resources/fhcn8/providers/osfstorage/5f81d5ca1f65a50275ed4125",
+                            "delete_url": "https://files.osf.io/v1/resources/fhcn8/providers/osfstorage/5f81d5ca1f65a50275ed4125",
+                            "last_touched": null,
+                            "date_modified": "2020-10-10T15:39:54.688139Z",
+                            "current_version": 1,
+                            "date_created": "2020-10-10T15:39:54.688139Z",
+                            "provider": "osfstorage",
+                            "path": "/5f81d5ca1f65a50275ed4125",
+                            "current_user_can_comment": true,
+                            "guid": null,
+                            "checkout": null,
+                            "tags": [],
+                            "size": 731202
+                        }
+                    }
+                ],
+                "updated": [],
+                "ignored": []
+            }
+        },
+        {
+            "id": "d94507c5-b211-42ed-847b-e0a9bdd8b034",
+            "details": "PresQT Upload to OSF",
+            "actionDateTime": "2020-10-10 15:39:47.729369+00:00",
+            "actionType": "resource_upload",
+            "sourceTargetName": "Local Machine",
+            "sourceUsername": null,
+            "destinationTargetName": "osf",
+            "destinationUsername": "PresQT QA",
+            "keywords": {},
+            "files": {
+                "created": [
+                    {
+                        "destinationHashes": {
+                            "sha256": "6d33275234b28d77348e4e1049f58b95a485a7a441684a9eb9175d01c7f141ea"
+                        },
+                        "destinationPath": "/NewProject/osfstorage/funnyfunnyimages/Screen Shot 2019-07-15 at 3.26.49 PM.png",
+                        "failedFixityInfo": [],
+                        "title": "Screen Shot 2019-07-15 at 3.26.49 PM.png",
+                        "sourceHashes": {
+                            "sha256": "6d33275234b28d77348e4e1049f58b95a485a7a441684a9eb9175d01c7f141ea"
+                        },
+                        "sourcePath": "/NewProject/funnyfunnyimages/Screen Shot 2019-07-15 at 3.26.49 PM.png",
+                        "extra": {}
+                    }
+                ],
+                "updated": [],
+                "ignored": []
+            }
+        }
+    ]
+}
